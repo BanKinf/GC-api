@@ -1,3 +1,5 @@
+const fetch = require('node-fetch')
+
 const getUser = async (req, res) => {
   const idReq = req.params.id;
     try {

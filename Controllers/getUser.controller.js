@@ -1,8 +1,8 @@
 const fetch = require('node-fetch')
 
 const getUser = async (req, res) => {
-  const idReq = req.params.id;
     try {
+      const idReq = req.params.id;
       const response = await fetch(
         `https://gamersclub.com.br/api/box/init/${idReq}`
       );
